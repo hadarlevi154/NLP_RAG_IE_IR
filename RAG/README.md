@@ -4,6 +4,7 @@ I really hope you will give me a chance :)
 # Retrieval-Augmented Generation (RAG) System
 
 A comprehensive information retrieval system enhanced with generative AI capabilities to provide more relevant and natural responses to user queries.
+The corpus consists of research documents and medical papers about cystic fibrosis, including studies on its genetic factors, treatment approaches, etc.
 
 ## Overview
 
@@ -84,6 +85,11 @@ Where:
 - `"your search query"` is the search query in quotes
 - `[path/to/corpus]` is the optional path to the corpus (needed to extract full document text)
 
+Possible queries:
+- Is salt (sodium and/or chloride) transport/permeability abnormal in CF?
+- What abnormalities of insulin secretion or insulin metabolism occur in CF patients?
+- Can CF be diagnosed prenatally? 
+
 ## How It Works
 
 ### Indexing (create_index)
@@ -114,7 +120,6 @@ Where:
 - `vsm_ir.py`: Main entry point with command-line interface
 - `InformationRetrievalGivenQuery.py`: Core RAG implementation
 - `InvertedIndexDictionary.py`: Index creation and storage
-- `test.py`: Evaluation of retrieval performance
 
 ## Output Files
 

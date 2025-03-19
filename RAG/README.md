@@ -1,5 +1,5 @@
 Hi! I'm glad you are here after reading my email!
-I really hope you will give me a chance :)
+I really hope you will be impressed :)
 
 # Retrieval-Augmented Generation (RAG) System
 
